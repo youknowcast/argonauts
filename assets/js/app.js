@@ -16,4 +16,13 @@ import "phoenix_html"
 // Local files can be imported directly using relative paths, for example:
 // import socket from "./socket"
 
+// 登録する
+Vue.component('my-component', {
+  template: '<div>A custom component!</div>'
+})
+
+// root インスタンスを作成する
+new Vue({
+  el: '#example'
+})
 
